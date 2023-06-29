@@ -71,7 +71,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/api/v1", (req, res) => {
-   res.send("<img src='https://i.pinimg.com/originals/82/d4/f8/82d4f8f8d7672bc5960d37dfcc51285f.jpg' style='width: 300px; height: auto;'></br></br><h1>Hey there buddy yo!</h1>");
+   res.send("<img src='https://i.pinimg.com/originals/82/d4/f8/82d4f8f8d7672bc5960d37dfcc51285f.jpg' style='width: 300px; height: auto;'></br></br><h1>Hey there buddy yo, Wassup?</h1>");
    console.log("It runs");
 });
 
